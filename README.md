@@ -1,22 +1,36 @@
-# \## 📚 SOPG - Sistemas Operativos de Proposito General
+# 🧠 Trabajo Práctico — Servidor TCP Clave-Valor
 
-# 
+## 👨‍💻 Autor
 
-# \*\*Trabajo Práctico:\*\* \_Escribir un servidor TCP que permite almacenar información ASCII en forma de clave-valor.\_
+- **Lucas Sebastián Kirschner** — `e2409`
 
+---
 
+## 📚 Materia
 
-# 
+**Sistemas Operativos de Propósito General**  
+**Trabajo Práctico:** _Servidor TCP — Almacenamiento Clave-Valor_
 
-# \## Alumno
+---
 
-# 
+## ⚙️ Descripción
 
-# \- \*\*Lucas Sebastián Kirschner\*\* — `e2409`
+Este servidor TCP fue desarrollado como parte del trabajo práctico propuesto en la materia.  
+Permite almacenar información en formato texto mediante un esquema clave-valor simple, utilizando archivos como mecanismo de persistencia.
 
-# 
+El protocolo de comunicación es **ASCII** sobre **TCP/IP**.
 
-# 
+---
 
-# \[Enlace repositorio de Git Hub](https://github.com/lucaskirschner/Trabajo-Practico-SOPG-Lucas-Kirschner.git)
+## 🛠️ Requisitos
 
+- Linux (probado en Ubuntu)
+- Compilador `gcc`
+- Herramientas de prueba: `nc` (netcat) o `telnet`
+
+Instalación de herramientas:
+
+```bash
+sudo apt install netcat
+# o
+sudo apt install telnet
